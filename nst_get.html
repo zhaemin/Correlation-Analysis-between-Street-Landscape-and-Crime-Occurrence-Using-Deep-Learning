@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>deeping-Imageget</title>
+</head>
+<body>    
+    <br>
+    <h1 align="center">Image</h1>
+    <br>
+    <form align="center" action="/nst_post" method="POST" enctype="multipart/form-data">
+        <br><br>
+        <h2 align="center">Put your image</h2>
+        <div align="center" id='view_area'></div>
+        <br>
+        <input type="file" name="file[]" value="file" onchange="previewImage(this,'view_area')" multiple=""/>
+        <input type="submit" value="확인"/>
+    </form>
+    <br><br><br>
+ 
+</body>
+</html>
